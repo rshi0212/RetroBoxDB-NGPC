@@ -1,10 +1,10 @@
 {
-  "tag": "ngpc-catalog-20261006",
-  "title": "NeoGeo Pocket Color Catalog: storage v4, first release",
+  "tag": "ngpc-catalog-20261006-2",
+  "title": "NeoGeo Pocket Color Catalog: naming normalized, one schema for fifteen platforms",
   "platform": "ngpc",
   "catalog_name": "RetroBoxDB.NGPC.Catalog.sqlite",
-  "base_url": "https://github.com/rshi0212/RetroBoxDB-NGPC/releases/download/ngpc-catalog-base-20261006/RetroBoxDB.NGPC.Catalog.sqlite",
-  "base_sha256": "a7db807589f403f81fb10cddc89c2ab8c0fcfba666a9d174d5483eb7d9395f20",
+  "base_url": "https://github.com/rshi0212/RetroBoxDB-NGPC/releases/download/ngpc-catalog-base-20261006-2/RetroBoxDB.NGPC.Catalog.sqlite",
+  "base_sha256": "d101973836d577a51d6c24c015a0f28d3ad6f547bb63eee4babdfbc2e06f4884",
   "data_table_sha256": {
     "archive_entries": {
       "rows": 171,
@@ -47,8 +47,8 @@
       "sha256": "00e46a4f185b24ce4ca86e29933669cd0efdee0a72b3fac65208e94e2e58e4e7"
     },
     "events": {
-      "rows": 19,
-      "sha256": "0b56567d6457280a34c59b3e014d511bcf75539b117c98389de78e9599d2e0f2"
+      "rows": 20,
+      "sha256": "94a43aace99d36be63b4f6ff6db4d479760b2f18417df0195e40f207e6577b23"
     },
     "fds_hardware": {
       "rows": 0,
@@ -76,7 +76,7 @@
     },
     "frontend_platforms": {
       "rows": 1,
-      "sha256": "ff703c88943a3e52d611b968afd63ddad610fe5c610091b7dd873abb15edfecb"
+      "sha256": "6db7648b0162a8ed88a903ec182f4771e3cc61ae20058fcc8e190d46e28e8ed3"
     },
     "frontend_profiles": {
       "rows": 1,
@@ -124,7 +124,7 @@
     },
     "meta": {
       "rows": 23,
-      "sha256": "6a764471989a37cf2593baaa024361021275202d933e118dd7277684f03033af"
+      "sha256": "aa230f80035770675cfdc61a67baedc478e9b5f0fbce5c3c5b2df38684fbbc8e"
     },
     "naming_decisions": {
       "rows": 12,
@@ -307,8 +307,8 @@
       "sha256": "22e0a1fcf583b574e9b3861b7b651ee25c4500fcc7b118f6dd41ca0ba4f6bc11"
     },
     "scraper_providers": {
-      "rows": 1,
-      "sha256": "ad358de51eea41e843cd0757449d5bc7ed51b790e76768b9651051451c16bf86"
+      "rows": 2,
+      "sha256": "82920b2b40de7fc602f4f14769e0dd2384f435705a9be8cd4ed08a984c72d37f"
     },
     "sms_hardware": {
       "rows": 0,
@@ -416,6 +416,10 @@
       "kind": "python",
       "path": "tools/export_nointro_parents.py"
     },
+    "normalize_db.py": {
+      "kind": "python",
+      "path": "tools/normalize_db.py"
+    },
     "tests_v4.py": {
       "kind": "python",
       "path": "tests/test_v4.py"
@@ -448,21 +452,21 @@
       "kind": "json",
       "path": "assessment/data/storage-experiment-satellaview.json"
     },
-    "storage-experiment-sms": {
+    "storage-experiment-mastersystem": {
       "kind": "json",
-      "path": "assessment/data/storage-experiment-sms.json"
+      "path": "assessment/data/storage-experiment-mastersystem.json"
     },
-    "storage-experiment-32x": {
+    "storage-experiment-sega32x": {
       "kind": "json",
-      "path": "assessment/data/storage-experiment-32x.json"
+      "path": "assessment/data/storage-experiment-sega32x.json"
     },
-    "storage-experiment-ws": {
+    "storage-experiment-wswan": {
       "kind": "json",
-      "path": "assessment/data/storage-experiment-ws.json"
+      "path": "assessment/data/storage-experiment-wswan.json"
     },
-    "storage-experiment-wsc": {
+    "storage-experiment-wswanc": {
       "kind": "json",
-      "path": "assessment/data/storage-experiment-wsc.json"
+      "path": "assessment/data/storage-experiment-wswanc.json"
     },
     "storage-experiment-ngp": {
       "kind": "json",
