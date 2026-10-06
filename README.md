@@ -7,8 +7,8 @@ Single-file SQLite preservation database for SNK NeoGeo Pocket Color. The public
 | Item | Value |
 | --- | --- |
 | Original size | 183 source ZIPs, 93.0 MiB (No-Intro 130, RetroAchievements sets 53); 183 ROM files, 261.8 MiB uncompressed |
-| Stored size | populated database 37.9 MiB; public Catalog 3.5 MiB (no ROM data) |
-| Ratio | 40.8% of the source ZIPs, 14.5% of the uncompressed ROM files |
+| Stored size | populated database 38.0 MiB; public Catalog 3.6 MiB (no ROM data) |
+| Ratio | 40.9% of the source ZIPs, 14.5% of the uncompressed ROM files |
 | Technology | storage v4: SHA256-deduplicated 128 KiB blocks packed in No-Intro family order into solid LZMA2 groups of up to 256 MiB (256 MiB dictionary); per-block SHA256 and per-object CRC32/MD5/SHA1/SHA256 verification; source ZIPs reproduced byte-for-byte from TorrentZip plans |
 | Export performance | Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz, idle, Python 3.14.4, all checks included. whole newest-DAT set with `export_set.py` (128 files, each checked against the DAT hashes): 52.5 MiB/s, 27 ms per file on average; single file with a cold cache (the group is decoded up to the file): ROM 0.943 s, TorrentZip 1.184 s on average |
 
